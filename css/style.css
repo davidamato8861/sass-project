@@ -1,0 +1,645 @@
+.wrapper #download-progress {
+  margin: 100px auto;
+  width: 700px;
+  height: 22px;
+  border-radius: 22px;
+  position: relative;
+  background: #FFFFFF;
+}
+.wrapper #download-progress::before {
+  width: 700px;
+  height: 22px;
+  border-radius: 22px;
+  position: absolute;
+  display: block;
+  content: '';
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 5%, transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 5%, transparent);
+}
+.wrapper #download-progress .progress-bar {
+  width: 700px;
+  height: 22px;
+  border-radius: 22px;
+  position: relative;
+  background: #3232FF;
+}
+.wrapper #download-progress .progress-bar, .wrapper #download-progress .progress-bar::after {
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+}
+.wrapper #download-progress .progress-bar::after {
+  width: 700px;
+  height: 22px;
+  border-radius: 22px;
+  position: absolute;
+  display: block;
+  content: '';
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 5%, transparent);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 5%, transparent);
+}
+.wrapper #download-progress .progress-bar.p-0 {
+  width: 0px;
+}
+.wrapper #download-progress .progress-bar.p-0::after {
+  width: 0px;
+}
+.wrapper #download-progress .progress-bar.p-1 {
+  width: 7px;
+}
+.wrapper #download-progress .progress-bar.p-1::after {
+  width: 7px;
+}
+.wrapper #download-progress .progress-bar.p-2 {
+  width: 14px;
+}
+.wrapper #download-progress .progress-bar.p-2::after {
+  width: 14px;
+}
+.wrapper #download-progress .progress-bar.p-3 {
+  width: 21px;
+}
+.wrapper #download-progress .progress-bar.p-3::after {
+  width: 21px;
+}
+.wrapper #download-progress .progress-bar.p-4 {
+  width: 28px;
+}
+.wrapper #download-progress .progress-bar.p-4::after {
+  width: 28px;
+}
+.wrapper #download-progress .progress-bar.p-5 {
+  width: 35px;
+}
+.wrapper #download-progress .progress-bar.p-5::after {
+  width: 35px;
+}
+.wrapper #download-progress .progress-bar.p-6 {
+  width: 42px;
+}
+.wrapper #download-progress .progress-bar.p-6::after {
+  width: 42px;
+}
+.wrapper #download-progress .progress-bar.p-7 {
+  width: 49px;
+}
+.wrapper #download-progress .progress-bar.p-7::after {
+  width: 49px;
+}
+.wrapper #download-progress .progress-bar.p-8 {
+  width: 56px;
+}
+.wrapper #download-progress .progress-bar.p-8::after {
+  width: 56px;
+}
+.wrapper #download-progress .progress-bar.p-9 {
+  width: 63px;
+}
+.wrapper #download-progress .progress-bar.p-9::after {
+  width: 63px;
+}
+.wrapper #download-progress .progress-bar.p-10 {
+  width: 70px;
+}
+.wrapper #download-progress .progress-bar.p-10::after {
+  width: 70px;
+}
+.wrapper #download-progress .progress-bar.p-11 {
+  width: 77px;
+}
+.wrapper #download-progress .progress-bar.p-11::after {
+  width: 77px;
+}
+.wrapper #download-progress .progress-bar.p-12 {
+  width: 84px;
+}
+.wrapper #download-progress .progress-bar.p-12::after {
+  width: 84px;
+}
+.wrapper #download-progress .progress-bar.p-13 {
+  width: 91px;
+}
+.wrapper #download-progress .progress-bar.p-13::after {
+  width: 91px;
+}
+.wrapper #download-progress .progress-bar.p-14 {
+  width: 98px;
+}
+.wrapper #download-progress .progress-bar.p-14::after {
+  width: 98px;
+}
+.wrapper #download-progress .progress-bar.p-15 {
+  width: 105px;
+}
+.wrapper #download-progress .progress-bar.p-15::after {
+  width: 105px;
+}
+.wrapper #download-progress .progress-bar.p-16 {
+  width: 112px;
+}
+.wrapper #download-progress .progress-bar.p-16::after {
+  width: 112px;
+}
+.wrapper #download-progress .progress-bar.p-17 {
+  width: 119px;
+}
+.wrapper #download-progress .progress-bar.p-17::after {
+  width: 119px;
+}
+.wrapper #download-progress .progress-bar.p-18 {
+  width: 126px;
+}
+.wrapper #download-progress .progress-bar.p-18::after {
+  width: 126px;
+}
+.wrapper #download-progress .progress-bar.p-19 {
+  width: 133px;
+}
+.wrapper #download-progress .progress-bar.p-19::after {
+  width: 133px;
+}
+.wrapper #download-progress .progress-bar.p-20 {
+  width: 140px;
+}
+.wrapper #download-progress .progress-bar.p-20::after {
+  width: 140px;
+}
+.wrapper #download-progress .progress-bar.p-21 {
+  width: 147px;
+}
+.wrapper #download-progress .progress-bar.p-21::after {
+  width: 147px;
+}
+.wrapper #download-progress .progress-bar.p-22 {
+  width: 154px;
+}
+.wrapper #download-progress .progress-bar.p-22::after {
+  width: 154px;
+}
+.wrapper #download-progress .progress-bar.p-23 {
+  width: 161px;
+}
+.wrapper #download-progress .progress-bar.p-23::after {
+  width: 161px;
+}
+.wrapper #download-progress .progress-bar.p-24 {
+  width: 168px;
+}
+.wrapper #download-progress .progress-bar.p-24::after {
+  width: 168px;
+}
+.wrapper #download-progress .progress-bar.p-25 {
+  width: 175px;
+}
+.wrapper #download-progress .progress-bar.p-25::after {
+  width: 175px;
+}
+.wrapper #download-progress .progress-bar.p-26 {
+  width: 182px;
+}
+.wrapper #download-progress .progress-bar.p-26::after {
+  width: 182px;
+}
+.wrapper #download-progress .progress-bar.p-27 {
+  width: 189px;
+}
+.wrapper #download-progress .progress-bar.p-27::after {
+  width: 189px;
+}
+.wrapper #download-progress .progress-bar.p-28 {
+  width: 196px;
+}
+.wrapper #download-progress .progress-bar.p-28::after {
+  width: 196px;
+}
+.wrapper #download-progress .progress-bar.p-29 {
+  width: 203px;
+}
+.wrapper #download-progress .progress-bar.p-29::after {
+  width: 203px;
+}
+.wrapper #download-progress .progress-bar.p-30 {
+  width: 210px;
+}
+.wrapper #download-progress .progress-bar.p-30::after {
+  width: 210px;
+}
+.wrapper #download-progress .progress-bar.p-31 {
+  width: 217px;
+}
+.wrapper #download-progress .progress-bar.p-31::after {
+  width: 217px;
+}
+.wrapper #download-progress .progress-bar.p-32 {
+  width: 224px;
+}
+.wrapper #download-progress .progress-bar.p-32::after {
+  width: 224px;
+}
+.wrapper #download-progress .progress-bar.p-33 {
+  width: 231px;
+}
+.wrapper #download-progress .progress-bar.p-33::after {
+  width: 231px;
+}
+.wrapper #download-progress .progress-bar.p-34 {
+  width: 238px;
+}
+.wrapper #download-progress .progress-bar.p-34::after {
+  width: 238px;
+}
+.wrapper #download-progress .progress-bar.p-35 {
+  width: 245px;
+}
+.wrapper #download-progress .progress-bar.p-35::after {
+  width: 245px;
+}
+.wrapper #download-progress .progress-bar.p-36 {
+  width: 252px;
+}
+.wrapper #download-progress .progress-bar.p-36::after {
+  width: 252px;
+}
+.wrapper #download-progress .progress-bar.p-37 {
+  width: 259px;
+}
+.wrapper #download-progress .progress-bar.p-37::after {
+  width: 259px;
+}
+.wrapper #download-progress .progress-bar.p-38 {
+  width: 266px;
+}
+.wrapper #download-progress .progress-bar.p-38::after {
+  width: 266px;
+}
+.wrapper #download-progress .progress-bar.p-39 {
+  width: 273px;
+}
+.wrapper #download-progress .progress-bar.p-39::after {
+  width: 273px;
+}
+.wrapper #download-progress .progress-bar.p-40 {
+  width: 280px;
+}
+.wrapper #download-progress .progress-bar.p-40::after {
+  width: 280px;
+}
+.wrapper #download-progress .progress-bar.p-41 {
+  width: 287px;
+}
+.wrapper #download-progress .progress-bar.p-41::after {
+  width: 287px;
+}
+.wrapper #download-progress .progress-bar.p-42 {
+  width: 294px;
+}
+.wrapper #download-progress .progress-bar.p-42::after {
+  width: 294px;
+}
+.wrapper #download-progress .progress-bar.p-43 {
+  width: 301px;
+}
+.wrapper #download-progress .progress-bar.p-43::after {
+  width: 301px;
+}
+.wrapper #download-progress .progress-bar.p-44 {
+  width: 308px;
+}
+.wrapper #download-progress .progress-bar.p-44::after {
+  width: 308px;
+}
+.wrapper #download-progress .progress-bar.p-45 {
+  width: 315px;
+}
+.wrapper #download-progress .progress-bar.p-45::after {
+  width: 315px;
+}
+.wrapper #download-progress .progress-bar.p-46 {
+  width: 322px;
+}
+.wrapper #download-progress .progress-bar.p-46::after {
+  width: 322px;
+}
+.wrapper #download-progress .progress-bar.p-47 {
+  width: 329px;
+}
+.wrapper #download-progress .progress-bar.p-47::after {
+  width: 329px;
+}
+.wrapper #download-progress .progress-bar.p-48 {
+  width: 336px;
+}
+.wrapper #download-progress .progress-bar.p-48::after {
+  width: 336px;
+}
+.wrapper #download-progress .progress-bar.p-49 {
+  width: 343px;
+}
+.wrapper #download-progress .progress-bar.p-49::after {
+  width: 343px;
+}
+.wrapper #download-progress .progress-bar.p-50 {
+  width: 350px;
+}
+.wrapper #download-progress .progress-bar.p-50::after {
+  width: 350px;
+}
+.wrapper #download-progress .progress-bar.p-51 {
+  width: 357px;
+}
+.wrapper #download-progress .progress-bar.p-51::after {
+  width: 357px;
+}
+.wrapper #download-progress .progress-bar.p-52 {
+  width: 364px;
+}
+.wrapper #download-progress .progress-bar.p-52::after {
+  width: 364px;
+}
+.wrapper #download-progress .progress-bar.p-53 {
+  width: 371px;
+}
+.wrapper #download-progress .progress-bar.p-53::after {
+  width: 371px;
+}
+.wrapper #download-progress .progress-bar.p-54 {
+  width: 378px;
+}
+.wrapper #download-progress .progress-bar.p-54::after {
+  width: 378px;
+}
+.wrapper #download-progress .progress-bar.p-55 {
+  width: 385px;
+}
+.wrapper #download-progress .progress-bar.p-55::after {
+  width: 385px;
+}
+.wrapper #download-progress .progress-bar.p-56 {
+  width: 392px;
+}
+.wrapper #download-progress .progress-bar.p-56::after {
+  width: 392px;
+}
+.wrapper #download-progress .progress-bar.p-57 {
+  width: 399px;
+}
+.wrapper #download-progress .progress-bar.p-57::after {
+  width: 399px;
+}
+.wrapper #download-progress .progress-bar.p-58 {
+  width: 406px;
+}
+.wrapper #download-progress .progress-bar.p-58::after {
+  width: 406px;
+}
+.wrapper #download-progress .progress-bar.p-59 {
+  width: 413px;
+}
+.wrapper #download-progress .progress-bar.p-59::after {
+  width: 413px;
+}
+.wrapper #download-progress .progress-bar.p-60 {
+  width: 420px;
+}
+.wrapper #download-progress .progress-bar.p-60::after {
+  width: 420px;
+}
+.wrapper #download-progress .progress-bar.p-61 {
+  width: 427px;
+}
+.wrapper #download-progress .progress-bar.p-61::after {
+  width: 427px;
+}
+.wrapper #download-progress .progress-bar.p-62 {
+  width: 434px;
+}
+.wrapper #download-progress .progress-bar.p-62::after {
+  width: 434px;
+}
+.wrapper #download-progress .progress-bar.p-63 {
+  width: 441px;
+}
+.wrapper #download-progress .progress-bar.p-63::after {
+  width: 441px;
+}
+.wrapper #download-progress .progress-bar.p-64 {
+  width: 448px;
+}
+.wrapper #download-progress .progress-bar.p-64::after {
+  width: 448px;
+}
+.wrapper #download-progress .progress-bar.p-65 {
+  width: 455px;
+}
+.wrapper #download-progress .progress-bar.p-65::after {
+  width: 455px;
+}
+.wrapper #download-progress .progress-bar.p-66 {
+  width: 462px;
+}
+.wrapper #download-progress .progress-bar.p-66::after {
+  width: 462px;
+}
+.wrapper #download-progress .progress-bar.p-67 {
+  width: 469px;
+}
+.wrapper #download-progress .progress-bar.p-67::after {
+  width: 469px;
+}
+.wrapper #download-progress .progress-bar.p-68 {
+  width: 476px;
+}
+.wrapper #download-progress .progress-bar.p-68::after {
+  width: 476px;
+}
+.wrapper #download-progress .progress-bar.p-69 {
+  width: 483px;
+}
+.wrapper #download-progress .progress-bar.p-69::after {
+  width: 483px;
+}
+.wrapper #download-progress .progress-bar.p-70 {
+  width: 490px;
+}
+.wrapper #download-progress .progress-bar.p-70::after {
+  width: 490px;
+}
+.wrapper #download-progress .progress-bar.p-71 {
+  width: 497px;
+}
+.wrapper #download-progress .progress-bar.p-71::after {
+  width: 497px;
+}
+.wrapper #download-progress .progress-bar.p-72 {
+  width: 504px;
+}
+.wrapper #download-progress .progress-bar.p-72::after {
+  width: 504px;
+}
+.wrapper #download-progress .progress-bar.p-73 {
+  width: 511px;
+}
+.wrapper #download-progress .progress-bar.p-73::after {
+  width: 511px;
+}
+.wrapper #download-progress .progress-bar.p-74 {
+  width: 518px;
+}
+.wrapper #download-progress .progress-bar.p-74::after {
+  width: 518px;
+}
+.wrapper #download-progress .progress-bar.p-75 {
+  width: 525px;
+}
+.wrapper #download-progress .progress-bar.p-75::after {
+  width: 525px;
+}
+.wrapper #download-progress .progress-bar.p-76 {
+  width: 532px;
+}
+.wrapper #download-progress .progress-bar.p-76::after {
+  width: 532px;
+}
+.wrapper #download-progress .progress-bar.p-77 {
+  width: 539px;
+}
+.wrapper #download-progress .progress-bar.p-77::after {
+  width: 539px;
+}
+.wrapper #download-progress .progress-bar.p-78 {
+  width: 546px;
+}
+.wrapper #download-progress .progress-bar.p-78::after {
+  width: 546px;
+}
+.wrapper #download-progress .progress-bar.p-79 {
+  width: 553px;
+}
+.wrapper #download-progress .progress-bar.p-79::after {
+  width: 553px;
+}
+.wrapper #download-progress .progress-bar.p-80 {
+  width: 560px;
+}
+.wrapper #download-progress .progress-bar.p-80::after {
+  width: 560px;
+}
+.wrapper #download-progress .progress-bar.p-81 {
+  width: 567px;
+}
+.wrapper #download-progress .progress-bar.p-81::after {
+  width: 567px;
+}
+.wrapper #download-progress .progress-bar.p-82 {
+  width: 574px;
+}
+.wrapper #download-progress .progress-bar.p-82::after {
+  width: 574px;
+}
+.wrapper #download-progress .progress-bar.p-83 {
+  width: 581px;
+}
+.wrapper #download-progress .progress-bar.p-83::after {
+  width: 581px;
+}
+.wrapper #download-progress .progress-bar.p-84 {
+  width: 588px;
+}
+.wrapper #download-progress .progress-bar.p-84::after {
+  width: 588px;
+}
+.wrapper #download-progress .progress-bar.p-85 {
+  width: 595px;
+}
+.wrapper #download-progress .progress-bar.p-85::after {
+  width: 595px;
+}
+.wrapper #download-progress .progress-bar.p-86 {
+  width: 602px;
+}
+.wrapper #download-progress .progress-bar.p-86::after {
+  width: 602px;
+}
+.wrapper #download-progress .progress-bar.p-87 {
+  width: 609px;
+}
+.wrapper #download-progress .progress-bar.p-87::after {
+  width: 609px;
+}
+.wrapper #download-progress .progress-bar.p-88 {
+  width: 616px;
+}
+.wrapper #download-progress .progress-bar.p-88::after {
+  width: 616px;
+}
+.wrapper #download-progress .progress-bar.p-89 {
+  width: 623px;
+}
+.wrapper #download-progress .progress-bar.p-89::after {
+  width: 623px;
+}
+.wrapper #download-progress .progress-bar.p-90 {
+  width: 630px;
+}
+.wrapper #download-progress .progress-bar.p-90::after {
+  width: 630px;
+}
+.wrapper #download-progress .progress-bar.p-91 {
+  width: 637px;
+}
+.wrapper #download-progress .progress-bar.p-91::after {
+  width: 637px;
+}
+.wrapper #download-progress .progress-bar.p-92 {
+  width: 644px;
+}
+.wrapper #download-progress .progress-bar.p-92::after {
+  width: 644px;
+}
+.wrapper #download-progress .progress-bar.p-93 {
+  width: 651px;
+}
+.wrapper #download-progress .progress-bar.p-93::after {
+  width: 651px;
+}
+.wrapper #download-progress .progress-bar.p-94 {
+  width: 658px;
+}
+.wrapper #download-progress .progress-bar.p-94::after {
+  width: 658px;
+}
+.wrapper #download-progress .progress-bar.p-95 {
+  width: 665px;
+}
+.wrapper #download-progress .progress-bar.p-95::after {
+  width: 665px;
+}
+.wrapper #download-progress .progress-bar.p-96 {
+  width: 672px;
+}
+.wrapper #download-progress .progress-bar.p-96::after {
+  width: 672px;
+}
+.wrapper #download-progress .progress-bar.p-97 {
+  width: 679px;
+}
+.wrapper #download-progress .progress-bar.p-97::after {
+  width: 679px;
+}
+.wrapper #download-progress .progress-bar.p-98 {
+  width: 686px;
+}
+.wrapper #download-progress .progress-bar.p-98::after {
+  width: 686px;
+}
+.wrapper #download-progress .progress-bar.p-99 {
+  width: 693px;
+}
+.wrapper #download-progress .progress-bar.p-99::after {
+  width: 693px;
+}
+.wrapper #download-progress .progress-bar.p-100 {
+  width: 700px;
+}
+.wrapper #download-progress .progress-bar.p-100::after {
+  width: 700px;
+}
