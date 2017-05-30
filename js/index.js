@@ -2,7 +2,7 @@ var $progressBar = $('.progress-bar');
 
 setInterval(function() {
     var newPercentage = Math.round(Math.random() * 100);
-    $progressBar 
+    $progressBar
         .removeClass(findProgressPercentageClasses)
         .addClass('p-' + newPercentage);
 }, 1000)
